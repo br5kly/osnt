@@ -8,7 +8,7 @@ def delete():
 put = input("id:")
 #put1=input("id2:")
 token = open('token.txt').read()
-cookie = 'XXXXXXX'
+cookie = open('cookie.txt').read()
 coki = {"cooki":cookie}
 url = requests.get('https://graph.facebook.com/%s?fields=name,id,first_name,last_name&access_token=%s'%(put,token),cookies=coki)
 #for song in url["name"]:
