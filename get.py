@@ -17,7 +17,11 @@ b =  "1234"
  
 #print(song)
 events = url.json()
-
+note = " Old Account Manual By Zeyad alabnay"
+for letter in note:
+ time.sleep(0.4)
+ sys.stdout.write(note)
+ sys.stdout.flush()
 
 zeyad = events['name']
 zeyad1 = events['name'] + "1234" 
@@ -34,7 +38,8 @@ zeyad11 = events['last_name'] + "12"
 zeyad12 = "1987" '\n' "1988"
 from rich.console import Console
 console = Console()
-console.print(events['name']+ "",style="bold underline green",sep="")
+console.print(" \t Manual Brute Old 2004-2005" ,style="bold underline blue")
+print(events['name'],sep="")
 print(events['first_name'],events['last_name'],sep="")
 print(events['name'] +b , sep='')
 print(events['name'] +a ,sep='')
