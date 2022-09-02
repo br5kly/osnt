@@ -20,7 +20,7 @@ events = url.json()
 note = " Old Account Manual By Zeyad alabnay"
 for letter in note:
  time.sleep(0.4)
- sys.stdout.write(note)
+ sys.stdout.write(letter)
  sys.stdout.flush()
 
 zeyad = events['name']
